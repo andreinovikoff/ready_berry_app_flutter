@@ -1,9 +1,6 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:ready_berry/models/berry_model.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_arc_text/flutter_arc_text.dart';
 
 
 class BerrySelector extends StatelessWidget {
@@ -18,54 +15,54 @@ class BerrySelector extends StatelessWidget {
             children: List.generate(berries.length, (index) {
               return Padding(
                 padding: EdgeInsets.symmetric(horizontal: 10.0),
-                child: Column(
+                child: Stack(
+                  alignment: Alignment.center,
                   children: <Widget>[
-                    Stack(
-                      children: <Widget>[Container(
-                    height: 150.0,
-                    width: 150.0,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      gradient: LinearGradient(
-                        begin: Alignment.bottomCenter,
-                        end: Alignment.topCenter,
-                        colors: [
-                          Color(0xFFE9BDDA).withOpacity(0.6), 
-                          Color(0xFFFDF0DF),
-                          ],
-                          ),
-                          ),
-                    child: Stack(
-                      alignment: Alignment.center,
-                      children: <Widget>[
-                        Container(
-                      height: 110.0,
-                      width: 110.0,
-                      decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                      gradient: LinearGradient(
+                    Container(
+                height: 167.0,
+                width: 167.0,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  gradient: LinearGradient(
                     begin: Alignment.bottomCenter,
                     end: Alignment.topCenter,
                     colors: [
-                    Color(0xFFD79EC2), 
-                    Color(0xFFFDF0DF),
-                    ],),),
-                      padding: EdgeInsets.all(10.0),
-                    child: SvgPicture.asset(berries[index].imageUrl,
-                    ),
-                      ),
+                      Color(0xFFE9BDDA).withOpacity(0.6), 
+                      Color(0xFFFDF0DF),
                       ],
-                    )
-                      ),],
+                      ),
+                      ),
                     ),
-                    ArcText(
-                      radius: -50,
-                      text: berries[index].name,
-                      textStyle: TextStyle(letterSpacing: 2.0,
-                      fontSize: 16.0,
-                      ),
-                      startAngle: 20,
-                      ),
+                Stack(
+                  alignment: Alignment.center,
+                  children: <Widget>[
+                    Container(
+                  height: 120.0,
+                  width: 120.0,
+                  decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                  gradient: LinearGradient(
+                begin: Alignment.bottomCenter,
+                end: Alignment.topCenter,
+                colors: [
+                Color(0xFFD79EC2), 
+                Color(0xFFFDF0DF),
+                ],),),
+                  padding: EdgeInsets.all(10.0),
+                child: SvgPicture.asset(berries[index].imageUrl,
+                ),
+                  ),
+                  ],
+                ),
+                Positioned(
+                  bottom: 18,
+                  child: Text(
+                    berries[index].name,
+                    style: TextStyle(color: Colors.blueGrey,
+                    fontSize: 14,
+                    ),
+                  ),
+                    ),
                   ],
                 ),
               );
