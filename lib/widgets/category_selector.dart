@@ -32,17 +32,22 @@ class _CategorySelectorState extends State<CategorySelector> {
                   color: Color(0xffFCF5F4),
                   borderRadius: BorderRadius.circular(10.0),
                   boxShadow: [BoxShadow(
-                    offset: Offset(3.0, 5.0),
-                    spreadRadius: 0.0,
-                    blurRadius: 2.0,
+                    offset: Offset(5.0, 3.0),
+                    blurRadius: 6.0,
                     color: Color(0xFFEDC7DB),
-                  )]
+                  ),
+                  BoxShadow(
+                    offset: Offset(-1.0, -1.0),
+                    color: Colors.white,
+                    blurRadius: 2.0,
+                    )
+                  ],
                 ) : BoxDecoration(
                   color: Color(0xffFCF5F4),
                   borderRadius: BorderRadius.circular(10.0),
                   boxShadow: [BoxShadow(
-                    spreadRadius: -10.0,
-                    blurRadius: 0.0,
+                    spreadRadius: -12.0,
+                    blurRadius: 12.0,
                     color: Color(0xFFEDC7DB),
                   )]
                   ),
