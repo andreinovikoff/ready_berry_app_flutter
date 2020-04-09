@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>information</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE3BF" offset="2.81355574%"></stop>
+            <stop stop-color="#FDC4E9" offset="99.2715372%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.81355574%" x2="50%" y2="99.2715372%" id="linearGradient-2">
+            <stop stop-color="#FFE1C4" offset="0%"></stop>
+            <stop stop-color="#FFB4E4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-11-Copy" transform="translate(-32.000000, -313.000000)">
+            <g id="information" transform="translate(32.000000, 313.000000)">
+                <path d="M14.5,0 C6.48518164,0 0,6.48574805 0,14.5 C0,22.5148184 6.48574805,29 14.5,29 C22.5148184,29 29,22.514252 29,14.5 C29,6.48518164 22.5141953,0 14.5,0 Z" id="Shape" fill="url(#linearGradient-1)" opacity="0.403390067"></path>
+                <path d="M14.5,4 C8.69616602,4 4,8.69657617 4,14.5 C4,20.303834 8.69657617,25 14.5,25 C20.303834,25 25,20.3034238 25,14.5 C25,8.69616602 20.3033828,4 14.5,4 Z" id="Shape" stroke="#CB5A91" fill="url(#linearGradient-2)"></path>
+                <path d="M14.3099219,11.8079914 C13.7740183,11.8079914 13.3396094,12.2424003 13.3396094,12.7783039 L13.3396094,19.0267768 C13.3396094,19.5626804 13.7740183,19.9970893 14.3099219,19.9970893 C14.8458255,19.9970893 15.2802344,19.5626319 15.2802344,19.0267283 L15.2802344,12.7783039 C15.2802344,12.2424003 14.8458255,11.8079914 14.3099219,11.8079914 Z" id="Path" stroke="#CB5A91" fill="#FFFFFF"></path>
+                <circle id="Oval" stroke="#CB5A91" fill="#FFFFFF" cx="14.3099219" cy="9.30992187" r="1.30992187"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="34px" viewBox="0 0 28 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.81355574%" x2="50%" y2="99.2715372%" id="linearGradient-1">
+            <stop stop-color="#FFE1C4" offset="0%"></stop>
+            <stop stop-color="#FFB4E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.81355574%" x2="50%" y2="99.2715372%" id="linearGradient-2">
+            <stop stop-color="#FFE1C4" offset="0%"></stop>
+            <stop stop-color="#FFB4E4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-11-Copy" transform="translate(-33.000000, -375.000000)">
+            <g id="marker" transform="translate(33.000000, 375.000000)">
+                <g id="Group-11">
+                    <path d="M13.86,-2.49421399e-14 C6.21755473,-2.49421399e-14 -9.96536187e-14,5.42599791 -9.96536187e-14,12.0954183 C-9.96536187e-14,20.3723776 12.4033422,32.5234375 12.9314255,33.0366705 C13.4274426,33.5187886 14.2934544,33.5179406 14.7885745,33.0366705 C15.3166578,32.5234375 27.72,20.3723776 27.72,12.0954183 C27.72,5.42599791 21.5023705,-2.49421399e-14 13.86,-2.49421399e-14 Z" id="Shape" fill="url(#linearGradient-1)" opacity="0.4"></path>
+                    <path d="M13.75,4.01176471 C8.59438216,4.01176471 4.4,7.75945095 4.4,12.3659575 C4.4,18.0827762 12.767334,26.4754002 13.1235807,26.8298855 C13.4581954,27.16288 14.0424097,27.1622943 14.3764193,26.8298855 C14.732666,26.4754002 23.1,18.0827762 23.1,12.3659575 C23.1,7.75945095 18.9055674,4.01176471 13.75,4.01176471 Z" id="Shape" stroke="#CB5A91" stroke-width="1.1" fill="url(#linearGradient-2)"></path>
+                    <path d="M13.7500206,9.02647059 C11.6270866,9.02647059 9.9,10.7535707 9.9,12.8764706 C9.9,14.9993705 11.6271279,16.7264706 13.7500206,16.7264706 C15.8729134,16.7264706 17.6,14.9993705 17.6,12.8764706 C17.6,10.7535707 15.8729134,9.02647059 13.7500206,9.02647059 Z" id="Shape" stroke="#CB5A91" stroke-width="1.1" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
